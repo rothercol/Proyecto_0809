@@ -20,10 +20,17 @@ $num1=5;
 $num2=77;
 
 $suma = $num1 + $num2;
+$resta = $num1 - $num2;
+$multi = $num1 * $num2;
 
 echo $suma;
+echo $resta;
+echo $multi;
+
 
 echo "<br />La variable \$suma tiene el valor de $suma <br />";
+echo "<br />La variable \$resta tiene el valor de $resta <br />";
+echo "<br />La variable \$multi tiene el valor de $multi <br />";
 
 $modulo = $num2 % 2;
 
